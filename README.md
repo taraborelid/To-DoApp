@@ -46,8 +46,7 @@ npm run build
 
 ##  Previsualización del build
 
-```
-Bash
+```Bash
 npm run preview
 ```
 
