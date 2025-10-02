@@ -1,8 +1,11 @@
+
 #  To-DoApp
 
 Aplicación de lista de tareas construida con **React + Vite**.
 
 Permite **crear, filtrar, completar y eliminar tareas**, con persistencia en `localStorage`.
+
+Preguntas teóricas en el archivo [Preguntas Teoricas.pdf](./Preguntas%20Teoricas.pdf)
 
 ---
 
