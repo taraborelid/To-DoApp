@@ -1,0 +1,77 @@
+.taskform-container {
+  max-width: 798px;
+  width: min(100%, 798px);
+  margin: 70px auto 15px;
+  display: flex;
+  flex-direction: column; 
+  gap: 0px;
+  box-sizing: border-box;
+}
+
+
+.taskform-title {
+  color: #24487e;
+  font-size: 1.6rem;
+  font-weight: 640;
+  margin: 0;
+  text-align: left; 
+  padding-left: 6px;
+}
+
+
+.task-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding: 0 13px;
+}
+
+.task-list-title {
+  margin: 0;
+  color: #24487e;
+  font-size: 1.6rem;
+  font-weight: 640;
+}
+
+
+@media (max-width: 560px) {
+  .taskform-title {
+    font-size: 1.6rem;
+    text-align: left; /* en mobile centrado */
+  }
+
+
+  .task-list-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+}
+
+
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* En App.css */
+.app {
+  /* Capa blanca translúcida + imagen */
+  background:
+    linear-gradient(rgba(255,255,255, 0.75), rgba(255, 255, 255, 0.75)),
+    url('/background.png');
+  background-repeat: repeat;
+  background-size: 2000px auto;
+  background-position: 0 100px;  
+  background-attachment: scroll;
+  min-height: 100vh;
+  background-color: #f5f7fb;       
+}

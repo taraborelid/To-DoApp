@@ -1,0 +1,32 @@
+.task-list {
+  max-width: 798px;
+  width: min(100%, 798px);   
+  margin: 0 auto;             
+}
+
+.task-list-items {
+  width: 100%;
+  max-width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;                 
+}
+
+.task-list-items > li {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.no-tasks {
+  text-align: center;
+  color: #666;
+  font-size: 1.6rem;
+  padding: 40px 20px;
+  
+}
+
+

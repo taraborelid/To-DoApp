@@ -1,0 +1,40 @@
+.task-list-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.task-list-controls label {
+  font-weight: 640;
+  color: #24487e;
+  padding-bottom: 2px;
+}
+
+.form-select-filter {
+  padding: 6px 12px;
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(16,24,40,0.04);
+  outline: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .task-list-controls {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 560px) {
+  .task-list-controls {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .form-select-filter {
+    width: 100%;
+  }
+}
