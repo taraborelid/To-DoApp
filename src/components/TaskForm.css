@@ -4,23 +4,23 @@
   box-shadow: 0 8px 32px rgba(20, 40, 80, 0.12), 0 2px 8px rgba(0, 0, 0, 0.08);
   max-width: 780px;
   width: min(100%, 780px);
-  margin: 10px auto 70px;
+  margin: 10px auto 80px;
   padding: 1px;
 }
 
 /* Tamaños ajustables desde acá */
 .task-form {
   --row-max-width: 850px;
-  --input-height: 48px;
+  --input-height: 50px;
   --input-py: 10px;      /* padding vertical del input */
   --input-px: 15px;      /* padding horizontal del input */
-  --button-height:  48px;
+  --button-height:  50px;
   --button-px: 21px;     /* padding horizontal del botón */
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin: 0;
-  padding: 20px 24px;
+  padding: 19px 21px;
   
   background: transparent;
 }
@@ -43,7 +43,7 @@
   border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(16, 24, 40, 0.04);
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   outline: none;
   transition: border 0.2s;
   margin: 0;
