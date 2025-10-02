@@ -48,8 +48,8 @@
 }
 
 .task-item--completada .task-item-content::before {
-  background: #174e7e;
-  border-color: #174e7e;
+  background: #347e17;
+  border-color: #2f7215;
   content: '✓';
   display: flex;
   align-items: center;
@@ -115,19 +115,19 @@
 /* Botón de completar/check */
 .task-button {
   padding: 6px 12px;
-  border: 1px solid #e0e6ed;
-  background: #fff;
-  background: linear-gradient(180deg, #337ddd, #214f8b);
-  color: #ffffff;
+  border: 1px solid #294d75;
+  background: #f9f9fa;
+  color: #294d75;
   border-radius: 6px;
   transition: all 0.2s ease;    /* transición suave */
   cursor: pointer;
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   min-width: 88px;
 }
 
 .task-button:hover {
-  background: rgb(92, 137, 196); 
+  background: #407bd4; 
+  color: white;
 }
 
 
@@ -136,18 +136,19 @@
 .delete-button {
   padding: 6px 12px;
   background: white;
-  color: #214f8b;
-  border: 1px solid #214f8b;
+  color: #8b2121;
+  border: 1px solid #8b2121;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   font-weight: 530;
   transition: all 0.2s ease;
 }
 
 .delete-button:hover {
-  background: #d9e9fc;
-  border-color: #214f8b;
+  color: white;
+  background: #994b4b;
+  border-color: #994b4b;
 }
 
 /* Animación de entrada */
